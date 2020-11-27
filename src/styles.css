@@ -1,0 +1,54 @@
+q.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+body {
+  font-family: "Roboto";
+}
+.executive-summary {
+  text-align: left;
+  font: normal normal normal 18px/28px Roboto;
+  letter-spacing: 0.18px;
+  color: #000000;
+  opacity: 1;
+  font-size: 18px;
+  margin-top: 2rem;
+}
+.hero-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin-left: -100px; */
+  height: 571px;
+}
+.hero-text {
+  display: flex;
+  justify-content: center;
+  color: #fff;
+  font-size: 45px;
+  font-weight: bold;
+  max-width: 890px;
+  max-height: 171px;
+}
+.app-bar {
+  background-color: #000 !important;
+}
+
+.annotation {
+  font-size: 12px;
+  text-align: left;
+  font: normal normal normal 12px/15px Roboto;
+  letter-spacing: 0.12px;
+  opacity: 1;
+}
+.annotation-line {
+  margin: 24px 0;
+  width: 17%;
+}
+.methodology {
+  background-color: #dfefee;
+}
+.creaive-quote {
+  font-style: italic;
+  color: #0070c9;
+}
