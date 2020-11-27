@@ -1,10 +1,11 @@
 import React from "react";
 import Typography from "@material-ui/core/Typography";
 import Container from "@material-ui/core/Container";
-
+import Fade from 'react-reveal/Fade';
 import "./styles.css";
 
 const ExecutiveSummary = () => (
+  <Fade Bottom>
   <Container maxWidth="md">
     <Typography variant="h6">Executive Summary</Typography>
     <Typography variant="body1" className="executive-summary">
@@ -87,5 +88,6 @@ const ExecutiveSummary = () => (
       </Typography>
     </div>
   </Container>
+  </Fade>
 );
 export default ExecutiveSummary;

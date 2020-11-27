@@ -52,3 +52,30 @@ body {
   font-style: italic;
   color: #0070c9;
 }
+.countries {
+margin: 10px 0;
+font-size: 18px;
+}
+.figures {
+  text-align: left;
+  font: normal normal medium 50px/21px Roboto;
+  letter-spacing: 0px;
+  color: #1F4E79;
+  opacity: 1;
+  font-weight: bold;
+}
+.profile-text{
+  text-align: left;
+  font: normal normal normal 18px/21px Roboto;
+  letter-spacing: 0.18px;
+  color: #000000;
+  opacity: 1;
+  margin-bottom: 1rem;
+}
+.sector-heading{
+  text-align: left;
+  font: normal normal medium 21px/28px Roboto;
+  letter-spacing: 0.21px;
+  color: #000000;
+  font-weight: bold;
+}

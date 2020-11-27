@@ -1,10 +1,11 @@
 import React from "react";
 import Typography from "@material-ui/core/Typography";
 import Container from "@material-ui/core/Container";
-
+import Fade from 'react-reveal/Fade';
 import "./styles.css";
 
 const CreativeSection = () => (
+  <Fade bottom>
   <Container maxWidth="md">
     <Typography variant="h6">
       Creative Manufacturing and Handmade at a Glance
@@ -43,5 +44,6 @@ const CreativeSection = () => (
       use of their smartphones.”
     </Typography>
   </Container>
+  </Fade >
 );
 export default CreativeSection;

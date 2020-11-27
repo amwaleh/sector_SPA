@@ -1,11 +1,13 @@
 import React from "react";
 import Typography from "@material-ui/core/Typography";
 import Container from "@material-ui/core/Container";
-
+import Fade from 'react-reveal/Fade';
 import "./styles.css";
 
 const MethodologySection = () => (
-  <Container maxWidth="md" className="methodology">
+<Fade bottom>
+  <Container maxWidth="lg" className="methodology">
+  <Container maxWidth="md"  className="methodology">
     <Typography variant="h6">Our Methodology</Typography>
     <Typography variant="body1" className="executive-summary">
       The data for this report was collected from a 42-question online survey of
@@ -42,7 +44,7 @@ const MethodologySection = () => (
       individual artisan level. In 2019 5.2 billion people (67% of the world’s
       population) were mobile phone subscribers, 3.8 billion with
       internet-enabled phones. By 2025, 5.8 billion people are expected to have
-      mobile phones.4 As a result, the vast majority of CMH producers — formal
+      mobile phones.<sup>4</sup> As a result, the vast majority of CMH producers — formal
       businesses and individual artisan creators alike — now enjoy or are on the
       verge of gaining internet access.
     </Typography>
@@ -56,5 +58,7 @@ const MethodologySection = () => (
       </Typography>
     </div>
   </Container>
+  </Container>
+  </Fade>
 );
 export default MethodologySection;
