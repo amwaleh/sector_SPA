@@ -6,9 +6,9 @@ import "./styles.css";
 
 const SurveySector = () => (
   <Fade bottom>
-    <Container maxWidth="lg">
+    <Container maxWidth="" className="wrapper">
       <Container maxWidth="md">
-        <Typography variant="h6">Our Survey</Typography>
+        <Typography variant="h6" className="header">Our Survey</Typography>
         <Typography variant="body1" className="executive-summary">
           The CMH sector is dominated by women, youth and rural populations.
           Fully 74% of all enterprises have female founders;60% are under 35;

@@ -6,9 +6,9 @@ import "./styles.css";
 
 const SectorMatter = () => (
   <Fade bottom>
-    <Container maxWidth="lg" >
+    <Container maxWidth="lg" className="wrapper">
       <Container maxWidth="md" >
-        <Typography variant="h6">Why Does the Sector Matter?</Typography>
+        <Typography variant="h6" className="header">Why Does the Sector Matter?</Typography>
         <Typography variant="body1" className="executive-summary">
           The CMH sector is a relatively “new” and unexplored sector. It is both
           ripe for investment and capable of generating significant growth in a

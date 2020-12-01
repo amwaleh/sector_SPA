@@ -6,8 +6,8 @@ import "./styles.css";
 
 const CreativeSection = () => (
   <Fade bottom>
-  <Container maxWidth="md">
-    <Typography variant="h6">
+  <Container maxWidth="md" className="wrapper">
+    <Typography variant="h6" className="header">
       Creative Manufacturing and Handmade at a Glance
     </Typography>
     <Typography variant="body1" className="executive-summary">
@@ -38,7 +38,7 @@ const CreativeSection = () => (
       traditions. Transformed by technology and entrepreneurship, CMH can
       flourish in the global marketplace.
     </Typography>
-    <Typography variant="body1" className="executive-summary creaive-quote">
+    <Typography variant="body1" className="executive-summary creative-quote">
       “We are trying to streamline our systems to be more virtual, and want to
       train artisans to interact with production information through improved
       use of their smartphones.”

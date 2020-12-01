@@ -8,7 +8,8 @@ const MethodologySection = () => (
 <Fade bottom>
   <Container maxWidth="lg" className="methodology">
   <Container maxWidth="md"  className="methodology">
-    <Typography variant="h6">Our Methodology</Typography>
+
+    <Typography variant="h6" className="header">Our Methodology</Typography>
     <Typography variant="body1" className="executive-summary">
       The data for this report was collected from a 42-question online survey of
       enterprises, collectives, cooperatives and NGOs conducted over the spring

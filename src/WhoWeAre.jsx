@@ -6,8 +6,8 @@ import "./styles.css";
 
 const WhoWeAreSection = () => (
   <Fade Bottom>
-    <Container maxWidth="md">
-      <Typography variant="h6">Who are we?</Typography>
+    <Container maxWidth="md" className="wrapper">
+      <Typography variant="h6" className="header">Who are we?</Typography>
       <Typography variant="body1" className="executive-summary">
         Powered by People (PBP) is a technology platform providing CMH
         enterprises with production and enterprise management software, as well

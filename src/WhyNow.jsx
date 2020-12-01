@@ -6,9 +6,9 @@ import "./styles.css";
 
 const SectorMatter = () => (
   <Fade bottom>
-    <Container maxWidth="lg">
+    <Container maxWidth="lg" className="wrapper">
       <Container maxWidth="md">
-        <Typography variant="h6">Why Now?</Typography>
+        <Typography variant="h6" className="header">Why Now?</Typography>
         <Typography variant="body1" className="executive-summary"> 
           <Typography className="sector-heading">
           Changing Consumer Demand: Small-Batch and Boutique Manufacturing

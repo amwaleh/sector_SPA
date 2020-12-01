@@ -7,9 +7,9 @@ import "./styles.css";
 
 const MethodologySection = () => (
   <Fade bottom>
-    <Container maxWidth="lg" className="methodology">
+    <Container maxWidth="lg" className="wrapper methodology">
       <Container maxWidth="md" className="methodology">
-        <Typography variant="h5">Business Profile</Typography>
+        <Typography variant="h6" className="header">Business Profile</Typography>
         <Grid container justify="space-between">
           <Grid item md="5">
             <Typography>Top countries by revenue</Typography>
@@ -41,6 +41,7 @@ const MethodologySection = () => (
               $12,464
             </Typography>
           </Grid>
+  
         </Grid>
       </Container>
     </Container>
